@@ -8,6 +8,7 @@ class UI {
         this.forState = "add";
     }
 
+    // Show all posts
     showPosts(posts) {
         let output = "";
 
@@ -17,14 +18,12 @@ class UI {
            <div class="card-body">
            <h4 class="card-title">${post.title}</h4>
            <p class="card-text">${post.body}</p>
-           <div class="icons-wrapper">
            <a href="#" class="edit card-link" data-id=${post.id}>
            <i class="fa fa-pencil"></i>
            </a>
            <a href="#" class="delete card-link" data-id=${post.id}>
            <i class="fa fa-remove"></i>
            </a>
-           </div>
            </div>
            </div>
            `;

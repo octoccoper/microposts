@@ -2,8 +2,16 @@
   color: red;
 }
 
-.icons-wrapper {
+.delete.card-link {
+  right: 3%;
+}
+
+.edit.card-link {
+  right: 7%;
+}
+
+.delete.card-link,
+.edit.card-link {
   position: absolute;
   top: 10%;
-  right: 3%;
 }

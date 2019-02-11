@@ -67,7 +67,7 @@ function submitPost() {
       // Create post
       http.post("http://localhost:3000/posts", data)
         .then(data => {
-          ui.showAlert("Post added", "alert-success");
+          ui.showAlert("Post added", "alert alert-success");
           ui.clearFields();
           getPosts();
         })
@@ -76,7 +76,7 @@ function submitPost() {
       // Update post
       http.put(`http://localhost:3000/posts/${id}`, data)
       .then(data => {
-        ui.showAlert("Post updated", "alert-success");
+        ui.showAlert("Post updated", "alert alert-success");
         ui.changeFormState("add");
         getPosts();
       })
