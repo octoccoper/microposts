@@ -1,0 +1,9 @@
+.delete {
+  color: red;
+}
+
+.icons-wrapper {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+}
